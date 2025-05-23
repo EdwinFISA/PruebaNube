@@ -1,13 +1,11 @@
 # Etapa de build
-FROM node:18 AS build
+FROM node:18-alpine as build
 WORKDIR /app
-COPY package*.json ./
-RUN npm install
 COPY . .
-RUN npx ng build --configuration production
+RUN npm install
+RUN npm run build -- --configuration production
 
-# Etapa de producción
+# Etapa de producción con Nginx
 FROM nginx:alpine
 COPY --from=build /app/dist/tiendakeytlin.client /usr/share/nginx/html
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]

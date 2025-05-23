@@ -25,7 +25,7 @@ export interface ReciboVentaData {
 @Component({
   selector: 'app-recibo-venta',
   templateUrl: './recibo-ventas.component.html',
-  styleUrls: ['./recibo-ventas.component.scss'],
+  styleUrls: ['./recibo-ventas.component.css'],
   standalone: false
 })
 export class ReciboVentasComponent implements OnChanges {

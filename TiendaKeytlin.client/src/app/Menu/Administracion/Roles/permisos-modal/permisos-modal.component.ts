@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
   selector: 'app-permisos-modal',
   standalone: false,
   templateUrl: './permisos-modal.component.html',
-  styleUrls: ['./permisos-modal.component.scss']
+  styleUrls: ['./permisos-modal.component.css']
 })
 export class PermisosModalComponent implements OnInit {
   @Input() rolId: number = 0;

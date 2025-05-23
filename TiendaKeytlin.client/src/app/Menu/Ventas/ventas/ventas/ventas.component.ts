@@ -18,7 +18,7 @@ interface ProductoCarrito {
 @Component({
   selector: 'app-ventas',
   templateUrl: './ventas.component.html',
-  styleUrls: ['./ventas.component.scss'],
+  styleUrls: ['./ventas.component.css'],
   standalone: false
 })
 export class VentasComponent implements OnInit {

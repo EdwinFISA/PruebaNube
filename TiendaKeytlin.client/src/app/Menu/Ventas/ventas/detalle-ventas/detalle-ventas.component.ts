@@ -5,7 +5,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 @Component({
   selector: 'app-detalle-venta',
   templateUrl: './detalle-ventas.component.html',
-  styleUrls: ['./detalle-ventas.component.scss'],
+  styleUrls: ['./detalle-ventas.component.css'],
   standalone: false
 })
 export class DetalleVentasComponent implements OnInit {

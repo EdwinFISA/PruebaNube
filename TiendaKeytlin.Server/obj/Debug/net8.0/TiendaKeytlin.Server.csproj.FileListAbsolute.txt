@@ -2692,3 +2692,5 @@ C:\Users\guait\Desktop\Proyecto Reportes\SistemaTiendaKety\TiendaKeytlin.Server\
 C:\Users\guait\Desktop\Proyecto Reportes\SistemaTiendaKety\TiendaKeytlin.Server\obj\Debug\net8.0\TiendaKeytlin.Server.pdb
 C:\Users\guait\Desktop\Proyecto Reportes\SistemaTiendaKety\TiendaKeytlin.Server\obj\Debug\net8.0\TiendaKeytlin.Server.genruntimeconfig.cache
 C:\Users\guait\Desktop\Proyecto Reportes\SistemaTiendaKety\TiendaKeytlin.Server\obj\Debug\net8.0\ref\TiendaKeytlin.Server.dll
+C:\Users\guait\Desktop\Proyecto Reportes\SistemaTiendaKety\TiendaKeytlin.Server\obj\Debug\net8.0\TiendaKeytlin.Server.sourcelink.json
+C:\Users\guait\Desktop\Proyecto Reportes\SistemaTiendaKety\TiendaKeytlin.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

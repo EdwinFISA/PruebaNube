@@ -9,7 +9,7 @@ import Swal from 'sweetalert2';  // Importa SweetAlert2
   selector: 'app-roles',
   standalone: false,
   templateUrl: './roles.component.html',
-  styleUrls: ['./roles.component.scss']
+  styleUrls: ['./roles.component.css']
 })
 export class RolesComponent implements OnInit {
   roles: any[] = [];

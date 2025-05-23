@@ -4,7 +4,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   selector: 'app-roles-modal',
   standalone: false,
   templateUrl: './roles-modal.component.html',
-  styleUrls: ['./roles-modal.component.scss']
+  styleUrls: ['./roles-modal.component.css']
 })
 export class RolesModalComponent implements OnInit {
   @Input() rol: any = {};
